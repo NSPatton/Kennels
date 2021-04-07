@@ -6,7 +6,8 @@ import { LocationCard } from "./location/LocationCard";
 import { CustomerCard } from "./customer/CustomerCard";
 import { EmployeeCard } from "./employee/EmployeeCard";
 import { AnimalDetail } from "./animal/AnimalDetail";
-import { Link } from "react-router-dom";
+import { AnimalForm } from './animal/AnimalForm'
+
 
 export const ApplicationViews = () => {
     return (
@@ -24,6 +25,10 @@ export const ApplicationViews = () => {
 
             <Route path="/animals/:animalId(\d+)">
                 <AnimalDetail />
+            </Route>
+
+            <Route path="/animals/create">
+                <AnimalForm />
             </Route>
 
             {/*
