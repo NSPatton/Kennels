@@ -5,7 +5,7 @@
       "name": "Doodles",
       "breed": "Poodle",
       "locationId": 1,
-      "customerId": 2
+      "customerId": 1
     },
     {
       "id": 2,
@@ -33,8 +33,28 @@
     {
       "id": 1,
       "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "address": "7002 Chestnut Ct",
+      "email": "h@hh.com"
+    },
+    {
+      "id": 2,
+      "name": "Jill Bean",
+      "address": "2002 Bruv Blvd",
+      "email": "j@jb.com"
+    },
+    {
+      "id": 3,
+      "name": "Fermin Sanchez",
+      "address": "200 Volley St",
+      "email": "f@fs.com"
+    },
+    {
+      "id": 4,
+      "name": "Jerome Watkins",
+      "address": "600 Stimmy St",
+      "email": "f@fs.com"
     }
+
   ],
   "employees": [],
   "locations": [
