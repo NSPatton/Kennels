@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Redirect } from "react-router-dom";
+import { Route, Redirect, Router } from "react-router-dom";
 import { Home } from "./Home";
 import { AnimalList } from "./animal/AnimalList";
 import { LocationCard } from "./location/LocationCard";
@@ -10,6 +10,7 @@ import { AnimalForm } from './animal/AnimalForm'
 import { Login } from "./auth/Login"
 import { Register } from "./auth/Register"
 import { AnimalEditForm } from "./animal/AnimalEditForm"
+import { CustomerEditForm } from "./customer/CustomerEditForm"
 
 
 export const ApplicationViews = () => {
@@ -67,6 +68,10 @@ export const ApplicationViews = () => {
                 <CustomerCard />
                 <CustomerCard />
             </Route>
+
+            <Route path="/customers/:customerId(\d+)/edit">
+           <CustomerEditForm />
+           </Route>
 
 
             <Route path="/employees">

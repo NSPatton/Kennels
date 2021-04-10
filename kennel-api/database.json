@@ -52,11 +52,36 @@
       "id": 4,
       "name": "Jerome Watkins",
       "address": "600 Stimmy St",
-      "email": "f@fs.com"
+      "email": "j@jw.com"
     }
 
   ],
-  "employees": [],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Lara Long",
+      "address": "2111 Forza Rd",
+      "loca,tionId": 1
+    },
+    {
+      "id": 2,
+      "name": "Fred Grong",
+      "address": "956 Gumby St",
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "Rob Rangers",
+      "address": "8922 Harmon Rd",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Lana Henderson",
+      "address": "4322 Kinder Grove",
+      "locationId": 2
+    }
+  ],
   "locations": [
     {
       "id": 1,
@@ -67,6 +92,16 @@
       "id": 2,
       "name": "Nashville South",
       "address": "209 Emory Drive"
+    },
+    {
+      "id": 3,
+      "name": "Nashville East",
+      "address": "2032 Greyson Blvd"
+    },
+    {
+      "id": 4,
+      "name": "Nashville West",
+      "address": "113 Ford Rd"
     }
   ]
 }
